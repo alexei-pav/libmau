@@ -1,0 +1,2 @@
+# libmau
+Matrix API library
