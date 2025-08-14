@@ -3,7 +3,7 @@ TARGET := libmau.a
 CC = musl-gcc
 AR = ar
 CFLAGS = -g -c -Wall -Werror \
-				 -I$(INC_DIR) -std=89 \
+				 -I$(INC_DIR) \
 				 -I$(CJSON_INC_DIR) \
 				 -I$(MBEDTLS_INC_DIR)
 
